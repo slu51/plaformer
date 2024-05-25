@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="88" height="25" tilewidth="18" tileheight="18" infinite="0" nextlayerid="4" nextobjectid="201">
+ <editorsettings>
+  <export target="platformer-level-1.tmj" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="kenny_tilemap_packed" tilewidth="18" tileheight="18" tilecount="180" columns="20">
+  <image source="tilemap_packed.png" width="360" height="162"/>
+  <tile id="0">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="water" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="water" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="61">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="62">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="63">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="water" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="81">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="82">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="83">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="100">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="101">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="102">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="103">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="120">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="121">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="122">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="123">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="140">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="141">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="142">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="143">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="Ground-n-Platforms" width="88" height="25">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49,50,51,0,0,0,0,50,50,50,50,0,0,0,50,50,50,50,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49,50,50,50,51,0,0,0,0,0,0,0,0,0,0,0,0,49,50,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49,50,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49,50,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49,50,50,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49,50,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,102,103,103,104,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,49,50,50,50,51,0,0,0,0,0,22,23,23,23,23,23,24,0,0,0,0,0,0,0,0,0,0,0,0,0,122,123,123,124,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,122,123,123,123,123,123,124,0,0,0,0,0,0,0,0,0,0,0,0,0,122,123,123,124,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,122,123,123,123,123,123,124,0,0,0,0,0,0,102,103,103,103,103,103,103,123,123,123,124,0,0,0,0,102,103,103,102,103,103,103,103,103,103,103,103,103,103,102,103,103,103,103,74,74,74,74,74,74,103,103,103,102,103,103,103,103,102,103,103,103,103,103,103,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,122,123,123,123,123,123,124,0,0,0,0,0,0,122,123,123,123,123,123,123,123,123,123,123,0,0,0,0,122,123,123,122,123,123,123,123,123,123,123,123,123,123,122,123,123,123,124,74,74,74,74,74,74,122,123,123,122,123,123,123,123,122,123,123,123,123,123,123,
+23,23,23,23,23,23,23,23,24,54,54,54,54,54,54,22,23,23,23,23,122,123,123,123,123,123,124,54,54,54,54,54,54,122,123,123,123,123,123,123,123,123,123,124,34,34,34,34,122,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,124,74,74,74,74,74,74,122,25,25,25,25,25,25,123,123,123,123,123,123,123,123,
+123,123,123,123,123,123,123,123,124,74,74,74,74,74,74,122,123,123,123,123,123,123,123,123,123,123,124,74,74,74,74,74,35,122,123,123,123,123,123,123,123,123,123,124,74,74,74,74,122,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,124,74,74,74,74,74,74,122,25,25,25,25,25,25,123,123,123,123,123,123,123,123,
+123,123,123,123,123,123,123,123,124,74,74,74,74,74,74,122,123,123,123,123,123,123,123,123,123,123,124,74,74,74,74,74,74,123,123,123,123,123,123,123,123,123,123,124,74,74,74,74,122,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,124,74,74,74,74,74,74,122,25,25,25,25,25,123,123,123,123,123,123,123,123,123,
+123,123,123,123,123,123,123,123,124,74,74,74,74,74,74,122,123,123,123,123,123,123,123,123,123,123,124,74,74,74,74,74,74,123,123,123,123,123,123,123,123,123,123,124,74,74,74,74,122,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,124,50,50,50,50,50,50,122,25,25,25,25,25,123,123,123,123,123,123,123,123,123,
+123,123,123,123,123,123,123,123,124,63,63,63,63,63,63,122,123,123,123,123,123,123,123,123,123,123,124,63,63,63,63,63,63,122,123,123,123,123,123,123,123,123,123,63,63,63,63,63,63,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,124,63,63,63,63,63,63,122,25,25,25,25,25,25,123,123,123,123,123,123,123,123
+</data>
+ </layer>
+ <objectgroup id="3" name="Objects">
+  <object id="47" name="coin" gid="152" x="294.158" y="180.599" width="18" height="18"/>
+  <object id="48" name="coin" gid="152" x="377.097" y="267.828" width="18" height="18"/>
+  <object id="49" name="coin" gid="152" x="377.097" y="286.418" width="18" height="18"/>
+  <object id="50" name="coin" gid="152" x="399.977" y="287.848" width="18" height="18"/>
+  <object id="51" name="coin" gid="152" x="375.667" y="247.808" width="18" height="18"/>
+  <object id="52" name="coin" gid="152" x="357.077" y="286.418" width="18" height="18"/>
+  <object id="53" name="coin" gid="152" x="392.827" y="272.118" width="18" height="18"/>
+  <object id="54" name="coin" gid="152" x="361.367" y="270.688" width="18" height="18"/>
+  <object id="65" name="poison" gid="74" x="252.688" y="430.847" width="18" height="18" visible="0"/>
+  <object id="66" name="poison" gid="74" x="232.668" y="430.847" width="18" height="18" visible="0"/>
+  <object id="67" name="poison" gid="74" x="205.499" y="432.277" width="18" height="18" visible="0"/>
+  <object id="68" name="poison" gid="74" x="168.319" y="433.707" width="18" height="18" visible="0"/>
+  <object id="69" name="poison" gid="74" x="158.309" y="429.417" width="18" height="18" visible="0"/>
+  <object id="70" name="poison" gid="74" x="188.339" y="430.847" width="18" height="18" visible="0"/>
+  <object id="71" name="poison" gid="74" x="248.398" y="420.837" width="18" height="18" visible="0"/>
+  <object id="72" name="poison" gid="74" x="204.069" y="420.837" width="18" height="18" visible="0"/>
+  <object id="73" name="poison" gid="74" x="169.749" y="419.407" width="18" height="18" visible="0"/>
+  <object id="74" name="poison" gid="74" x="484.347" y="379.367" width="18" height="18" visible="0"/>
+  <object id="75" name="poison" gid="74" x="502.936" y="377.937" width="18" height="18" visible="0"/>
+  <object id="76" name="poison" gid="74" x="522.956" y="380.797" width="18" height="18" visible="0"/>
+  <object id="77" name="poison" gid="74" x="554.416" y="380.797" width="18" height="18" visible="0"/>
+  <object id="78" name="poison" gid="74" x="573.006" y="380.797" width="18" height="18" visible="0"/>
+  <object id="79" name="poison" gid="74" x="537.256" y="380.797" width="18" height="18" visible="0"/>
+  <object id="80" name="poison" gid="74" x="534.396" y="392.237" width="18" height="18" visible="0"/>
+  <object id="81" name="poison" gid="74" x="522.956" y="403.677" width="18" height="18" visible="0"/>
+  <object id="82" name="poison" gid="74" x="488.637" y="392.237" width="18" height="18" visible="0"/>
+  <object id="83" name="poison" gid="74" x="488.637" y="410.827" width="18" height="18" visible="0"/>
+  <object id="84" name="poison" gid="74" x="487.207" y="427.987" width="18" height="18" visible="0"/>
+  <object id="85" name="poison" gid="74" x="518.666" y="427.987" width="18" height="18" visible="0"/>
+  <object id="86" name="poison" gid="74" x="550.126" y="429.417" width="18" height="18" visible="0"/>
+  <object id="87" name="poison" gid="74" x="570.146" y="429.417" width="18" height="18" visible="0"/>
+  <object id="88" name="poison" gid="74" x="573.006" y="415.117" width="18" height="18" visible="0"/>
+  <object id="89" name="poison" gid="74" x="534.396" y="416.547" width="18" height="18" visible="0"/>
+  <object id="90" name="poison" gid="74" x="791.794" y="383.657" width="18" height="18" visible="0"/>
+  <object id="91" name="poison" gid="74" x="818.964" y="382.227" width="18" height="18" visible="0"/>
+  <object id="92" name="poison" gid="74" x="840.414" y="383.657" width="18" height="18" visible="0"/>
+  <object id="93" name="poison" gid="74" x="844.704" y="399.387" width="18" height="18" visible="0"/>
+  <object id="94" name="poison" gid="74" x="820.394" y="402.247" width="18" height="18" visible="0"/>
+  <object id="95" name="poison" gid="74" x="800.374" y="402.247" width="18" height="18" visible="0"/>
+  <object id="96" name="poison" gid="74" x="803.234" y="429.417" width="18" height="18" visible="0"/>
+  <object id="97" name="poison" gid="74" x="788.934" y="412.257" width="18" height="18" visible="0"/>
+  <object id="98" name="poison" gid="74" x="817.534" y="416.547" width="18" height="18" visible="0"/>
+  <object id="99" name="poison" gid="74" x="833.264" y="416.547" width="18" height="18" visible="0"/>
+  <object id="100" name="poison" gid="74" x="844.704" y="420.837" width="18" height="18" visible="0"/>
+  <object id="101" name="poison" gid="74" x="787.504" y="430.847" width="18" height="18" visible="0"/>
+  <object id="102" name="poison" gid="74" x="828.974" y="407.967" width="18" height="18" visible="0"/>
+  <object id="103" name="poison" gid="74" x="806.094" y="415.117" width="18" height="18" visible="0"/>
+  <object id="104" name="poison" gid="74" x="823.254" y="412.257" width="18" height="18" visible="0"/>
+  <object id="105" name="poison" gid="74" x="840.414" y="412.257" width="18" height="18" visible="0"/>
+  <object id="109" name="coin" gid="152" x="571.576" y="133.409" width="18" height="18"/>
+  <object id="110" name="coin" gid="152" x="558.706" y="146.279" width="18" height="18"/>
+  <object id="111" name="coin" gid="152" x="575.866" y="146.279" width="18" height="18"/>
+  <object id="112" name="coin" gid="152" x="594.456" y="146.279" width="18" height="18"/>
+  <object id="113" name="coin" gid="152" x="668.815" y="80.4995" width="18" height="18"/>
+  <object id="114" name="coin" gid="152" x="668.815" y="97.6594" width="18" height="18"/>
+  <object id="115" name="coin" gid="152" x="668.815" y="119.109" width="18" height="18"/>
+  <object id="116" name="coin" gid="152" x="598.746" y="313.588" width="18" height="18"/>
+  <object id="117" name="coin" gid="152" x="623.056" y="313.588" width="18" height="18"/>
+  <object id="118" name="coin" gid="152" x="643.075" y="313.588" width="18" height="18"/>
+  <object id="119" name="coin" gid="152" x="658.805" y="313.588" width="18" height="18"/>
+  <object id="120" name="coin" gid="152" x="691.695" y="313.588" width="18" height="18"/>
+  <object id="121" name="coin" gid="152" x="670.245" y="312.158" width="18" height="18"/>
+  <object id="172" name="poison" gid="74" x="1298.01" y="426.557" width="18" height="18" visible="0"/>
+  <object id="173" name="poison" gid="74" x="1282.28" y="435.137" width="18" height="18" visible="0"/>
+  <object id="174" name="poison" gid="74" x="1253.68" y="427.987" width="18" height="18" visible="0"/>
+  <object id="175" name="poison" gid="74" x="1223.65" y="432.277" width="18" height="18" visible="0"/>
+  <object id="176" name="poison" gid="74" x="1205.06" y="427.987" width="18" height="18" visible="0"/>
+  <object id="177" name="poison" gid="74" x="1207.92" y="413.687" width="18" height="18" visible="0"/>
+  <object id="178" name="poison" gid="74" x="1239.38" y="413.687" width="18" height="18" visible="0"/>
+  <object id="179" name="poison" gid="74" x="1273.7" y="413.687" width="18" height="18" visible="0"/>
+  <object id="180" name="poison" gid="74" x="1292.29" y="413.687" width="18" height="18" visible="0"/>
+  <object id="181" name="poison" gid="74" x="1232.23" y="413.687" width="18" height="18" visible="0"/>
+  <object id="185" name="coin" gid="152" x="1369.51" y="20.4399" width="18" height="18"/>
+  <object id="186" name="coin" gid="152" x="1369.51" y="36.1698" width="18" height="18"/>
+  <object id="187" name="coin" gid="152" x="1369.51" y="56.1897" width="18" height="18"/>
+  <object id="188" name="coin" gid="152" x="1222.22" y="70.4896" width="18" height="18"/>
+  <object id="189" name="coin" gid="152" x="954.813" y="139.129" width="18" height="18"/>
+  <object id="190" name="coin" gid="152" x="981.983" y="139.129" width="18" height="18"/>
+  <object id="191" name="coin" gid="152" x="921.924" y="234.938" width="18" height="18"/>
+  <object id="192" name="coin" gid="152" x="944.803" y="234.938" width="18" height="18"/>
+  <object id="198" name="heart" gid="45" x="211.218" y="280.698" width="18" height="18"/>
+  <object id="199" name="heart" gid="45" x="744.605" y="267.828" width="18" height="18"/>
+  <object id="200" name="heart" gid="45" x="1099.24" y="101.949" width="18" height="18"/>
+ </objectgroup>
+</map>
